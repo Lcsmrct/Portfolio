@@ -132,22 +132,16 @@ export const education = [
 
 export const certificates = [
   {
-    name: "AWS Certified Developer",
-    issuer: "Amazon Web Services",
+    name: "Sécurité en Atelier",
+    issuer: "Lycée Technique",
     date: "2023",
-    credentialId: "AWS-123456"
+    credentialId: "SEC-2023-001"
   },
   {
-    name: "React Developer Certification",
-    issuer: "Meta",
-    date: "2022",
-    credentialId: "META-789012"
-  },
-  {
-    name: "MongoDB Developer",
-    issuer: "MongoDB University",
-    date: "2022",
-    credentialId: "MONGO-345678"
+    name: "Premiers Secours",
+    issuer: "Croix Rouge",
+    date: "2023",
+    credentialId: "PSC1-2023-456"
   }
 ];
 
