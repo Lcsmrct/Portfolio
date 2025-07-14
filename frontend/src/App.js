@@ -1,54 +1,50 @@
-import { useEffect } from "react";
-import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
+import React, { useState } from 'react';
+import './App.css';
+import IPhoneFrame from './components/IPhoneFrame';
+import StatusBar from './components/StatusBar';
+import Navigation from './components/Navigation';
+import HomeScreen from './components/HomeScreen';
+import ProjectsScreen from './components/ProjectsScreen';
+import SkillsScreen from './components/SkillsScreen';
+import CVScreen from './components/CVScreen';
+import GamesScreen from './components/GamesScreen';
+import ContactScreen from './components/ContactScreen';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
+const App = () => {
+  const [activeTab, setActiveTab] = useState('home');
 
-const Home = () => {
-  const helloWorldApi = async () => {
-    try {
-      const response = await axios.get(`${API}/`);
-      console.log(response.data.message);
-    } catch (e) {
-      console.error(e, `errored out requesting / api`);
+  const renderScreen = () => {
+    switch (activeTab) {
+      case 'home':
+        return <HomeScreen />;
+      case 'projects':
+        return <ProjectsScreen />;
+      case 'skills':
+        return <SkillsScreen />;
+      case 'cv':
+        return <CVScreen />;
+      case 'games':
+        return <GamesScreen />;
+      case 'contact':
+        return <ContactScreen />;
+      default:
+        return <HomeScreen />;
     }
   };
 
-  useEffect(() => {
-    helloWorldApi();
-  }, []);
-
   return (
-    <div>
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" />
-        </a>
-        <p className="mt-5">Building something incredible ~!</p>
-      </header>
+    <div className="App">
+      <IPhoneFrame>
+        <div className="h-full flex flex-col">
+          <StatusBar />
+          <div className="flex-1 overflow-hidden">
+            {renderScreen()}
+          </div>
+          <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
+        </div>
+      </IPhoneFrame>
     </div>
   );
 };
-
-function App() {
-  return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
-}
 
 export default App;
