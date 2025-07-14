@@ -117,16 +117,16 @@ export const experience = [
 
 export const education = [
   {
-    degree: "Master en Informatique",
-    school: "École Supérieure d'Informatique",
-    period: "2017 - 2019",
-    description: "Spécialisation en développement web et intelligence artificielle"
+    degree: "1ère Bac Pro Mécanique",
+    school: "Lycée Technique",
+    period: "2023 - Présent",
+    description: "Formation en mécanique automobile et moto, systèmes électriques et électroniques"
   },
   {
-    degree: "Licence en Informatique",
-    school: "Université Paris-Saclay",
-    period: "2014 - 2017",
-    description: "Formation générale en informatique et mathématiques"
+    degree: "3ème Collège",
+    school: "Collège Local",
+    period: "2021 - 2023",
+    description: "Formation générale avec option technologie et découverte professionnelle"
   }
 ];
 
