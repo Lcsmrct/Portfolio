@@ -78,7 +78,7 @@ const SnakeGame = ({ onScoreUpdate }) => {
     }, speed);
 
     return () => clearInterval(gameLoop);
-  }, [gameRunning, direction, food, score, speed, checkCollision, generateFood, gameOver]);
+  }, [gameRunning, direction, food, score, speed, gameOver]);
 
   // Handle keyboard input
   useEffect(() => {
