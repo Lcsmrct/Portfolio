@@ -93,25 +93,25 @@ export const projects = [
 
 export const experience = [
   {
-    company: "TechStart Solutions",
-    position: "Développeur Full Stack Senior",
+    company: "Lycée Technique",
+    position: "Étudiant en 1ère Mécanique",
+    period: "2023 - Présent",
+    description: "Formation en mécanique automobile et moto, apprentissage des moteurs, transmissions et systèmes électriques",
+    technologies: ["Mécanique", "Électronique", "Diagnostic", "Réparation"]
+  },
+  {
+    company: "Garage Martin",
+    position: "Stagiaire Mécanicien",
+    period: "Été 2023",
+    description: "Stage d'observation et d'initiation aux techniques de réparation moto et scooter",
+    technologies: ["Entretien", "Réparation", "Outils", "Diagnostic"]
+  },
+  {
+    company: "Projet Personnel",
+    position: "Restauration Moto",
     period: "2022 - Présent",
-    description: "Développement d'applications web complexes, mentorat d'équipe, architecture microservices",
-    technologies: ["React", "Node.js", "AWS", "MongoDB"]
-  },
-  {
-    company: "Digital Agency Pro",
-    position: "Développeur Frontend",
-    period: "2020 - 2022",
-    description: "Création d'interfaces utilisateur modernes, optimisation des performances, intégration API",
-    technologies: ["Vue.js", "SCSS", "Webpack", "REST API"]
-  },
-  {
-    company: "Innovation Labs",
-    position: "Développeur Junior",
-    period: "2019 - 2020",
-    description: "Développement de prototypes, maintenance de code legacy, apprentissage des bonnes pratiques",
-    technologies: ["JavaScript", "PHP", "MySQL", "Git"]
+    description: "Restauration complète d'une moto 125cc, apprentissage autodidacte des techniques de mécanique",
+    technologies: ["Démontage", "Remontage", "Peinture", "Électronique"]
   }
 ];
 
