@@ -17,33 +17,33 @@ export const personalInfo = {
 
 export const skills = [
   {
-    category: "Frontend",
+    category: "Mécanique",
     technologies: [
-      { name: "React", level: 95 },
-      { name: "Vue.js", level: 85 },
-      { name: "TypeScript", level: 90 },
-      { name: "CSS/SCSS", level: 95 },
-      { name: "Tailwind", level: 90 }
-    ]
-  },
-  {
-    category: "Backend",
-    technologies: [
-      { name: "Node.js", level: 90 },
-      { name: "Python", level: 85 },
-      { name: "FastAPI", level: 80 },
-      { name: "MongoDB", level: 85 },
-      { name: "PostgreSQL", level: 80 }
+      { name: "Moteurs 2 temps", level: 85 },
+      { name: "Moteurs 4 temps", level: 80 },
+      { name: "Transmission", level: 75 },
+      { name: "Freinage", level: 70 },
+      { name: "Suspension", level: 65 }
     ]
   },
   {
     category: "Outils",
     technologies: [
-      { name: "Git", level: 95 },
-      { name: "Docker", level: 85 },
-      { name: "AWS", level: 75 },
-      { name: "Figma", level: 80 },
-      { name: "Webpack", level: 70 }
+      { name: "Clés et douilles", level: 95 },
+      { name: "Multimètre", level: 85 },
+      { name: "Tournevis", level: 90 },
+      { name: "Clé dynamométrique", level: 80 },
+      { name: "Compresseur", level: 75 }
+    ]
+  },
+  {
+    category: "Tech",
+    technologies: [
+      { name: "HTML/CSS", level: 70 },
+      { name: "JavaScript", level: 60 },
+      { name: "Python", level: 50 },
+      { name: "Git", level: 55 },
+      { name: "Arduino", level: 45 }
     ]
   }
 ];
