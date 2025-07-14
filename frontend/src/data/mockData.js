@@ -147,19 +147,51 @@ export const certificates = [
 
 export const gameScores = {
   snake: {
-    highScore: 1250,
+    highScore: 450,
     games: [
-      { score: 1250, date: "2024-01-15" },
-      { score: 980, date: "2024-01-14" },
-      { score: 750, date: "2024-01-13" }
+      { score: 450, date: "2024-01-15" },
+      { score: 320, date: "2024-01-14" },
+      { score: 180, date: "2024-01-13" }
     ]
   },
   agar: {
+    highScore: 2800,
+    games: [
+      { score: 2800, date: "2024-01-15" },
+      { score: 1900, date: "2024-01-14" },
+      { score: 1200, date: "2024-01-13" }
+    ]
+  },
+  tetris: {
     highScore: 8500,
     games: [
       { score: 8500, date: "2024-01-15" },
-      { score: 6200, date: "2024-01-14" },
-      { score: 4800, date: "2024-01-13" }
+      { score: 5200, date: "2024-01-14" },
+      { score: 3400, date: "2024-01-13" }
+    ]
+  },
+  pong: {
+    highScore: 8,
+    games: [
+      { score: 8, date: "2024-01-15" },
+      { score: 6, date: "2024-01-14" },
+      { score: 4, date: "2024-01-13" }
+    ]
+  },
+  flappy: {
+    highScore: 25,
+    games: [
+      { score: 25, date: "2024-01-15" },
+      { score: 18, date: "2024-01-14" },
+      { score: 12, date: "2024-01-13" }
+    ]
+  },
+  breakout: {
+    highScore: 3400,
+    games: [
+      { score: 3400, date: "2024-01-15" },
+      { score: 2100, date: "2024-01-14" },
+      { score: 1500, date: "2024-01-13" }
     ]
   }
 };
