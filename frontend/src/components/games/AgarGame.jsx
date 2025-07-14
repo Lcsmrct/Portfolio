@@ -145,33 +145,46 @@ const AgarGame = ({ onScoreUpdate }) => {
         return newFood;
       });
 
-      // Check enemy collision
+  // Check enemy collision
       setEnemies(prevEnemies => {
+        let newEnemies = [...prevEnemies];
+        
         setPlayer(prevPlayer => {
-          for (const enemy of prevEnemies) {
-            const dx = enemy.x - prevPlayer.x;
-            const dy = enemy.y - prevPlayer.y;
+          let newPlayer = { ...prevPlayer };
+          
+          for (let i = newEnemies.length - 1; i >= 0; i--) {
+            const enemy = newEnemies[i];
+            const dx = enemy.x - newPlayer.x;
+            const dy = enemy.y - newPlayer.y;
             const distance = Math.sqrt(dx * dx + dy * dy);
             
-            if (distance < prevPlayer.size / 2 + enemy.size / 2) {
-              if (prevPlayer.size > enemy.size) {
+            if (distance < newPlayer.size / 2 + enemy.size / 2) {
+              if (newPlayer.size > enemy.size) {
                 setScore(prevScore => prevScore + 50);
-                return { ...prevPlayer, size: prevPlayer.size + 5 };
+                newPlayer.size += 5;
+                newEnemies.splice(i, 1);
+                
+                // Add new enemy
+                newEnemies.push({
+                  x: Math.random() * CANVAS_WIDTH,
+                  y: Math.random() * CANVAS_HEIGHT,
+                  size: Math.random() * 30 + 15,
+                  speedX: (Math.random() - 0.5) * 2,
+                  speedY: (Math.random() - 0.5) * 2,
+                  color: `hsl(${Math.random() * 360}, 50%, 40%)`
+                });
               } else {
                 setGameOver(true);
                 setGameRunning(false);
+                return newPlayer;
               }
             }
           }
-          return prevPlayer;
+          
+          return newPlayer;
         });
         
-        return prevEnemies.filter(enemy => {
-          const dx = enemy.x - player.x;
-          const dy = enemy.y - player.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-          return !(distance < player.size / 2 + enemy.size / 2 && player.size > enemy.size);
-        });
+        return newEnemies;
       });
 
     }, 50);
