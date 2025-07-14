@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { ArrowLeft, Trophy, Clock, Target } from 'lucide-react';
 import SnakeGame from './games/SnakeGame';
 import AgarGame from './games/AgarGame';
+import TetrisGame from './games/TetrisGame';
+import PongGame from './games/PongGame';
+import FlappyBirdGame from './games/FlappyBirdGame';
+import BreakoutGame from './games/BreakoutGame';
 import { gameScores } from '../data/mockData';
 
 const GamesScreen = () => {
@@ -29,12 +33,48 @@ const GamesScreen = () => {
       component: SnakeGame
     },
     {
+      id: 'tetris',
+      name: 'Tetris',
+      description: 'Alignez les blocs pour faire des lignes',
+      icon: '🧩',
+      highScore: scores.tetris.highScore,
+      difficulty: 'Moyen',
+      component: TetrisGame
+    },
+    {
+      id: 'pong',
+      name: 'Pong',
+      description: 'Tennis de table rétro contre IA',
+      icon: '🏓',
+      highScore: scores.pong.highScore,
+      difficulty: 'Moyen',
+      component: PongGame
+    },
+    {
+      id: 'flappy',
+      name: 'Flappy Bird',
+      description: 'Volez entre les obstacles',
+      icon: '🐦',
+      highScore: scores.flappy.highScore,
+      difficulty: 'Difficile',
+      component: FlappyBirdGame
+    },
+    {
+      id: 'breakout',
+      name: 'Breakout',
+      description: 'Cassez les briques avec la balle',
+      icon: '🧱',
+      highScore: scores.breakout.highScore,
+      difficulty: 'Moyen',
+      component: BreakoutGame
+    },
+    {
       id: 'agar',
       name: 'Agar.io',
       description: 'Mangez pour grandir, évitez les prédateurs',
       icon: '🟢',
       highScore: scores.agar.highScore,
-      difficulty: 'Moyen',
+      difficulty: 'Difficile',
       component: AgarGame
     }
   ];
