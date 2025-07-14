@@ -1,17 +1,17 @@
 // Mock data for the portfolio
 
 export const personalInfo = {
-  name: "Alex Morgan",
-  title: "Développeur Full Stack",
-  bio: "Passionné par la création d'expériences numériques innovantes, je combine créativité et expertise technique pour donner vie à des projets exceptionnels.",
-  email: "alex.morgan@example.com",
+  name: "Lucas",
+  title: "Étudiant en Mécanique",
+  bio: "Passionné par la moto et la mécanique, je suis actuellement en première année de mécanique. J'aime comprendre comment les choses fonctionnent et créer des projets innovants.",
+  email: "lucas@lcsmrct.fr",
   phone: "+33 6 12 34 56 78",
-  location: "Paris, France",
-  avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjMzMzIi8+Cjx0ZXh0IHg9IjUwIiB5PSI1NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BTTwvdGV4dD4KPC9zdmc+",
+  location: "France",
+  avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjMzMzIi8+Cjx0ZXh0IHg9IjUwIiB5PSI1NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MPC90ZXh0Pgo8L3N2Zz4=",
   social: {
-    github: "https://github.com/alexmorgan",
-    linkedin: "https://linkedin.com/in/alexmorgan",
-    twitter: "https://twitter.com/alexmorgan"
+    github: "https://github.com/lucas",
+    linkedin: "https://linkedin.com/in/lucas",
+    twitter: "https://twitter.com/lucas"
   }
 };
 
