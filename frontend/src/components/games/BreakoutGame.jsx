@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Play, Pause, RotateCcw, Trophy, Zap } from 'lucide-react';
+import { Play, Pause, RotateCcw, Trophy } from 'lucide-react';
 
 const BreakoutGame = ({ onScoreUpdate }) => {
   const canvasRef = useRef(null);
