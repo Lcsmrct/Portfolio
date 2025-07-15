@@ -8,11 +8,11 @@
 - **Base de données** : lucas-portfolio-cluster (MongoDB Atlas)
 
 ### **📝 Variables d'environnement pour Render**
-Copiez-collez ces variables dans votre dashboard Render :
+Copiez-collez dans votre dashboard Render :
 
 ```
-MONGO_URL=mongodb+srv://lucas:VOTRE_MOT_DE_PASSE@lucas-portfolio-cluster.zxjnivk.mongodb.net/?retryWrites=true&w=majority&appName=lucas-portfolio-cluster
-DB_NAME=portfolio_prod
+MONGO_URL=mongodb://lucas:Sacul2517@ac-1h7bd9g-shard-00-00.zxjnivk.mongodb.net:27017,ac-1h7bd9g-shard-00-01.zxjnivk.mongodb.net:27017,ac-1h7bd9g-shard-00-02.zxjnivk.mongodb.net:27017/?ssl=true&replicaSet=atlas-7x810m-shard-0&authSource=admin&retryWrites=true&w=majority&appName=lucas-portfolio-cluster
+DB_NAME=lucas-portfolio-cluster
 ENVIRONMENT=production
 CORS_ORIGINS=https://lucas-portfoliooo.netlify.app,https://portfolio-huw1.onrender.com
 ```
