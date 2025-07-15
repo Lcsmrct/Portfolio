@@ -150,6 +150,7 @@ logger = logging.getLogger(__name__)
 async def startup_event():
     logger.info("Lucas Portfolio API démarrant...")
     logger.info(f"Base de données: {db_name}")
+    logger.info("Connexion MongoDB Atlas établie")
     logger.info(f"CORS Origins: {cors_origins}")
 
 @app.on_event("shutdown")
