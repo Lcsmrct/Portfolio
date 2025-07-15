@@ -1,22 +1,22 @@
 services:
   - type: web
-    name: lucas-portfolio-backend
+    name: portfolio-huw1
     runtime: python3
     startCommand: "uvicorn server:app --host 0.0.0.0 --port $PORT"
-    buildCommand: "pip install -r backend/requirements.txt"
+    buildCommand: "pip install -r requirements.txt"
     rootDir: backend
     plan: free
     region: oregon
     branch: main
     envVars:
       - key: MONGO_URL
-        sync: false
+        value: "mongodb+srv://lucas:<db_password>@lucas-portfolio-cluster.zxjnivk.mongodb.net/?retryWrites=true&w=majority&appName=lucas-portfolio-cluster"
       - key: DB_NAME
         value: portfolio_prod
       - key: ENVIRONMENT
         value: production
       - key: CORS_ORIGINS
-        value: "https://lucas-portfolio.netlify.app,https://lcsmrct.netlify.app"
+        value: "https://lucas-portfoliooo.netlify.app,https://portfolio-huw1.onrender.com"
     healthCheckPath: /api/
     
 # Configuration pour une base de données PostgreSQL si nécessaire
