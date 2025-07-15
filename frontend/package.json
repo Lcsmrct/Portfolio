@@ -57,7 +57,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "ESLINT_NO_DEV_ERRORS=true GENERATE_SOURCEMAP=false craco build",
+    "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "build:prod": "NODE_ENV=production ESLINT_NO_DEV_ERRORS=true GENERATE_SOURCEMAP=false craco build"
