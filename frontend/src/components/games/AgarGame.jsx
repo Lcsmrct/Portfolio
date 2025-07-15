@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { Play, Pause, RotateCcw, Trophy, Zap } from 'lucide-react';
+import { Play, Pause, RotateCcw, Trophy } from 'lucide-react';
 
 const AgarGame = ({ onScoreUpdate }) => {
   const canvasRef = useRef(null);
