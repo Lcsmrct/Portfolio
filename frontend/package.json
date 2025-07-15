@@ -60,7 +60,7 @@
     "build": "GENERATE_SOURCEMAP=false craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "build:prod": "NODE_ENV=production craco build"
+    "build:prod": "NODE_ENV=production GENERATE_SOURCEMAP=false craco build"
   },
   "eslintConfig": {
     "extends": [
