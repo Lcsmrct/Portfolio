@@ -62,7 +62,7 @@ CORS_ORIGINS=https://lucas-portfolio.netlify.app,https://votre-domaine.netlify.a
 1. Cliquez sur "Create Web Service"
 2. Attendez le déploiement (5-10 minutes)
 3. Notez l'URL du service : `https://lucas-portfolio-backend.onrender.com`
-
+https://portfolio-huw1.onrender.com
 ---
 
 ## 🌐 Déploiement Frontend (Netlify)
