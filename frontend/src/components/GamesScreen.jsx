@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowLeft, Trophy, Clock, Target } from 'lucide-react';
+import { ArrowLeft, Trophy, Target } from 'lucide-react';
 import SnakeGame from './games/SnakeGame';
 import AgarGame from './games/AgarGame';
 import TetrisGame from './games/TetrisGame';
