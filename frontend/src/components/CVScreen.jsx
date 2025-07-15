@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, MapPin, ExternalLink, Download, Award, Briefcase, GraduationCap } from 'lucide-react';
+import { ExternalLink, Github, Download, Award, Briefcase, GraduationCap } from 'lucide-react';
 import { experience, education, certificates } from '../data/mockData';
 
 const CVScreen = () => {
