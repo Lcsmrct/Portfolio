@@ -16,7 +16,7 @@
   REACT_APP_BACKEND_URL = "https://portfolio-huw1.onrender.com"
 
 [context.preview.environment]
-  REACT_APP_BACKEND_URL = "https://lucas-portfolio-backend.onrender.com"
+  REACT_APP_BACKEND_URL = "https://portfolio-huw1.onrender.com"
 
 # Headers pour sécurité
 [[headers]]
