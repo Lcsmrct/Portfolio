@@ -6,6 +6,8 @@
 [build.environment]
   NODE_VERSION = "20"
   REACT_APP_BACKEND_URL = "https://portfolio-huw1.onrender.com"
+  ESLINT_NO_DEV_ERRORS = "true"
+  GENERATE_SOURCEMAP = "false"
 
 [[redirects]]
   from = "/*"
