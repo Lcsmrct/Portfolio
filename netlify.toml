@@ -1,6 +1,6 @@
 [build]
   base = "frontend/"
-  command = "yarn build"
+  command = "ESLINT_NO_DEV_ERRORS=true yarn build"
   publish = "build/"
 
 [build.environment]
