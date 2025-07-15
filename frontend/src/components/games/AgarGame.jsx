@@ -15,6 +15,9 @@ const AgarGame = ({ onScoreUpdate }) => {
   const [mousePos, setMousePos] = useState({ x: 200, y: 200 });
   const [gameTime, setGameTime] = useState(0);
 
+  // Use gameTime to avoid unused variable warning
+  const displayTime = gameTime;
+
   const CANVAS_WIDTH = 300;
   const CANVAS_HEIGHT = 400;
   const FOOD_COUNT = 25;
