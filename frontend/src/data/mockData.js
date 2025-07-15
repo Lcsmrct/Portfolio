@@ -1,11 +1,11 @@
 // Mock data for the portfolio
 
 export const personalInfo = {
-  name: "Lucas",
+  name: "Lùcas",
   title: "Étudiant en Mécanique",
   bio: "Passionné par la moto et la mécanique, je suis actuellement en première année de mécanique. J'aime comprendre comment les choses fonctionnent et créer des projets innovants.",
   email: "lucas@lcsmrct.fr",
-  phone: "+33 6 12 34 56 78",
+  phone: "+33 06 06 06 06 06",
   location: "France",
   avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjMzMzIi8+Cjx0ZXh0IHg9IjUwIiB5PSI1NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MPC90ZXh0Pgo8L3N2Zz4=",
   social: {
@@ -19,21 +19,21 @@ export const skills = [
   {
     category: "Mécanique",
     technologies: [
-      { name: "Moteurs 2 temps", level: 85 },
-      { name: "Moteurs 4 temps", level: 80 },
-      { name: "Transmission", level: 75 },
-      { name: "Freinage", level: 70 },
-      { name: "Suspension", level: 65 }
+      { name: "EN COURS", level: 85 },
+      { name: "EN COURS", level: 85 },
+      { name: "EN COURS", level: 85 },
+      { name: "EN COURS", level: 85 },
+      { name: "EN COURS", level: 85 },
     ]
   },
   {
     category: "Outils",
     technologies: [
-      { name: "Clés et douilles", level: 95 },
-      { name: "Multimètre", level: 85 },
-      { name: "Tournevis", level: 90 },
-      { name: "Clé dynamométrique", level: 80 },
-      { name: "Compresseur", level: 75 }
+      { name: "EN COURS", level: 85 },
+      { name: "EN COURS", level: 85 },
+      { name: "EN COURS", level: 85 },
+      { name: "EN COURS", level: 85 },
+      { name: "EN COURS", level: 85 },
     ]
   },
   {
@@ -41,7 +41,7 @@ export const skills = [
     technologies: [
       { name: "HTML/CSS", level: 70 },
       { name: "JavaScript", level: 60 },
-      { name: "Python", level: 50 },
+      { name: "Python", level: 30 },
       { name: "Git", level: 55 },
       { name: "Arduino", level: 45 }
     ]
@@ -56,7 +56,7 @@ export const projects = [
     technologies: ["Mécanique", "Électronique", "Carrosserie", "Peinture"],
     image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRkY0NTAwIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk1vdG8gMTI1PC90ZXh0Pgo8L3N2Zz4=",
     githubUrl: "https://github.com/lucas/moto-restoration",
-    liveUrl: "https://moto-project.com",
+    liveUrl: "https://moto.lcsmrct.fr",
     status: "En cours"
   },
   {
@@ -65,18 +65,18 @@ export const projects = [
     description: "Création d'un système d'allumage électronique programmable avec Arduino pour moto custom",
     technologies: ["Arduino", "C++", "Électronique", "Capteurs"],
     image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjMDA3RkZGIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFyZHVpbm88L3RleHQ+Cjwvc3ZnPg==",
-    githubUrl: "https://github.com/lucas/arduino-ignition",
-    liveUrl: "https://arduino-ignition.com",
+    githubUrl: "https://github.com/",
+    liveUrl: "https://arduino.lcsmrct.fr",
     status: "Terminé"
   },
   {
     id: 3,
-    title: "Banc de Test Moteur",
-    description: "Construction d'un banc de test pour mesurer les performances des moteurs 2 temps",
+    title: "Application Révision code de la route",
+    description: "Site internet permettant d'apprendre / réviser le code de la route Gratuitement",
     technologies: ["Mécanique", "Mesure", "Analyse", "Fabrication"],
     image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjMTBCOTgxIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJhbmMgVGVzdDwvdGV4dD4KPC9zdmc+",
-    githubUrl: "https://github.com/lucas/engine-test",
-    liveUrl: "https://engine-test.com",
+    githubUrl: "https://github.com/t",
+    liveUrl: "https://code.lcsmrct.fr",
     status: "En cours"
   },
   {
@@ -86,24 +86,24 @@ export const projects = [
     technologies: ["React", "JavaScript", "CSS", "HTML"],
     image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjOEI1Q0Y2Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlBvcnRmb2xpbzwvdGV4dD4KPC9zdmc+",
     githubUrl: "https://github.com/lucas/portfolio",
-    liveUrl: "https://lucas-portfolio.com",
+    liveUrl: "https://lcsmrct.fr",
     status: "En cours"
   }
 ];
 
 export const experience = [
   {
-    company: "Lycée Technique",
-    position: "Étudiant en 1ère Mécanique",
-    period: "2023 - Présent",
-    description: "Formation en mécanique automobile et moto, apprentissage des moteurs, transmissions et systèmes électriques",
-    technologies: ["Mécanique", "Électronique", "Diagnostic", "Réparation"]
+    company: "Lycée Modeste leroy",
+    position: "Seconde professionel Mécanique",
+    period: "2024-2025",
+    description: "Formation en mécanique automobile",
+    technologies: ["Mécanique", "Diagnostic", "Réparation"]
   },
   {
-    company: "Garage Martin",
+    company: "Garage Renault Pontchartrain",
     position: "Stagiaire Mécanicien",
-    period: "Été 2023",
-    description: "Stage d'observation et d'initiation aux techniques de réparation moto et scooter",
+    period: "Mai 2023",
+    description: "Stage d'observation et d'initiation aux techniques de réparation",
     technologies: ["Entretien", "Réparation", "Outils", "Diagnostic"]
   },
   {
@@ -117,31 +117,31 @@ export const experience = [
 
 export const education = [
   {
-    degree: "1ère Bac Pro Mécanique",
-    school: "Lycée Technique",
-    period: "2023 - Présent",
-    description: "Formation en mécanique automobile et moto, systèmes électriques et électroniques"
-  },
-  {
-    degree: "3ème Collège",
-    school: "Collège Local",
-    period: "2021 - 2023",
-    description: "Formation générale avec option technologie et découverte professionnelle"
+    degree: "Seconde Bac Pro Mécanique",
+    school: "Lycée Modeste leroy",
+    period: "2024-2025",
+    description: "Formation en mécanique automobile"
   }
 ];
 
 export const certificates = [
   {
-    name: "Sécurité en Atelier",
-    issuer: "Lycée Technique",
+    name: "Certification Pix",
+    issuer: "College Jean Claude Dauphin",
     date: "2023",
     credentialId: "SEC-2023-001"
   },
   {
-    name: "Premiers Secours",
-    issuer: "Croix Rouge",
+    name: "Certification Evalang",
+    issuer: "College Jean Claude Dauphin",
     date: "2023",
     credentialId: "PSC1-2023-456"
+  },
+  {
+    name: "Brevet des collèges",
+    issuer: "Collège Jean Claude Dauphin",
+    date: "2024",
+    credentialId: "JSP ENCORE"
   }
 ];
 

@@ -85,7 +85,7 @@ const CVScreen = () => {
       <div className="p-6 border-b border-gray-700/50">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-white mb-2">Curriculum Vitae</h1>
+            <h1 className="text-2xl font-bold text-white mb-2">Maricourt Lùcas</h1>
             <p className="text-gray-400 text-sm">Mon parcours professionnel</p>
           </div>
           <button className="flex items-center space-x-2 px-4 py-2 bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors">
