@@ -4,10 +4,8 @@ import IPhoneFrame from './components/IPhoneFrame';
 import StatusBar from './components/StatusBar';
 import Navigation from './components/Navigation';
 import HomeScreen from './components/HomeScreen';
-import ProjectsScreen from './components/ProjectsScreen';
-import SkillsScreen from './components/SkillsScreen';
-import CVScreen from './components/CVScreen';
-import GamesScreen from './components/GamesScreen';
+import ServicesScreen from './components/ServicesScreen';
+import FAQScreen from './components/FAQScreen';
 import ContactScreen from './components/ContactScreen';
 
 const App = () => {
