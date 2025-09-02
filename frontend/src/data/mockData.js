@@ -82,107 +82,26 @@ export const faqData = [
   }
 ];
 
-export const experience = [
+export const testimonials = [
   {
-    company: "Lycée Modeste leroy",
-    position: "Seconde professionel Mécanique",
-    period: "2024-2025",
-    description: "Formation en mécanique automobile",
-    technologies: ["Mécanique", "Diagnostic", "Réparation"]
+    id: 1,
+    name: "Marie Laurent",
+    business: "Boutique Mode",
+    text: "Site magnifique et livré dans les temps ! Mes ventes en ligne ont explosé.",
+    rating: 5
   },
   {
-    company: "Garage Renault Pontchartrain",
-    position: "Stagiaire Mécanicien",
-    period: "Mai 2023",
-    description: "Stage d'observation et d'initiation aux techniques de réparation",
-    technologies: ["Entretien", "Réparation", "Outils", "Diagnostic"]
+    id: 2,
+    name: "Thomas Dubois", 
+    business: "Restaurant",
+    text: "Très professionnel, à l'écoute et prix très correct. Je recommande !",
+    rating: 5
   },
   {
-    company: "Projet Personnel",
-    position: "Restauration Moto",
-    period: "2022 - Présent",
-    description: "Restauration complète d'une moto 125cc, apprentissage autodidacte des techniques de mécanique",
-    technologies: ["Démontage", "Remontage", "Peinture", "Électronique"]
+    id: 3,
+    name: "Sophie Martin",
+    business: "Coach Sportif",
+    text: "Parfait pour présenter mon activité, design moderne et responsive.",
+    rating: 5
   }
 ];
-
-export const education = [
-  {
-    degree: "Seconde Bac Pro Mécanique",
-    school: "Lycée Modeste leroy",
-    period: "2024-2025",
-    description: "Formation en mécanique automobile"
-  }
-];
-
-export const certificates = [
-  {
-    name: "Certification Pix",
-    issuer: "College Jean Claude Dauphin",
-    date: "2023",
-    credentialId: "SEC-2023-001"
-  },
-  {
-    name: "Certification Evalang",
-    issuer: "College Jean Claude Dauphin",
-    date: "2023",
-    credentialId: "PSC1-2023-456"
-  },
-  {
-    name: "Brevet des collèges",
-    issuer: "Collège Jean Claude Dauphin",
-    date: "2024",
-    credentialId: "JSP ENCORE"
-  }
-];
-
-export const gameScores = {
-  snake: {
-    highScore: 450,
-    games: [
-      { score: 450, date: "2024-01-15" },
-      { score: 320, date: "2024-01-14" },
-      { score: 180, date: "2024-01-13" }
-    ]
-  },
-  agar: {
-    highScore: 2800,
-    games: [
-      { score: 2800, date: "2024-01-15" },
-      { score: 1900, date: "2024-01-14" },
-      { score: 1200, date: "2024-01-13" }
-    ]
-  },
-  tetris: {
-    highScore: 8500,
-    games: [
-      { score: 8500, date: "2024-01-15" },
-      { score: 5200, date: "2024-01-14" },
-      { score: 3400, date: "2024-01-13" }
-    ]
-  },
-  pong: {
-    highScore: 8,
-    games: [
-      { score: 8, date: "2024-01-15" },
-      { score: 6, date: "2024-01-14" },
-      { score: 4, date: "2024-01-13" }
-    ]
-  },
-  flappy: {
-    highScore: 25,
-    games: [
-      { score: 25, date: "2024-01-15" },
-      { score: 18, date: "2024-01-14" },
-      { score: 12, date: "2024-01-13" }
-    ]
-  },
-  breakout: {
-    highScore: 3400,
-    games: [
-      { score: 3400, date: "2024-01-15" },
-      { score: 2100, date: "2024-01-14" },
-      { score: 1500, date: "2024-01-13" }
-    ]
-  }
-};
