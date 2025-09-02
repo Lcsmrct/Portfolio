@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, User, MessageSquare, Instagram, ExternalLink } from 'lucide-react';
+import { Mail, MapPin, Send, User, MessageSquare, Instagram, ExternalLink } from 'lucide-react';
 import { personalInfo } from '../data/mockData';
 
 const ContactScreen = () => {
