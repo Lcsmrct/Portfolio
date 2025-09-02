@@ -8,7 +8,7 @@ const HomeScreen = () => {
       {/* Hero Section */}
       <div className="flex-1 flex flex-col items-center justify-center p-6 text-center">
         <div className="relative mb-6">
-          <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 shadow-2xl">
+          <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-600 to-blue-400 p-1 shadow-2xl">
             <img
               src={personalInfo.avatar}
               alt={personalInfo.name}
