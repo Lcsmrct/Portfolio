@@ -59,7 +59,7 @@ export const faqData = [
   {
     id: 2,
     question: "Que comprend l'offre 'Site vitrine' ?",
-    answer: "Un site simple de 1 à 3 pages avec design personnalisé, optimisation mobile, référencement de base et intégration de vos contenus. Parfait pour présenter votre activité."
+    answer: "Un site simple jusqu'à 5 pages avec design personnalisé, nom de domaine .fr fourni, optimisation mobile, référencement de base et intégration de vos contenus. Parfait pour présenter votre activité."
   },
   {
     id: 3,
