@@ -27,16 +27,11 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <IPhoneFrame>
-        <div className="h-full flex flex-col">
-          <StatusBar />
-          <div className="flex-1 overflow-hidden">
-            {renderScreen()}
-          </div>
-          <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
-        </div>
-      </IPhoneFrame>
+    <div className="App min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black">
+      <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
+      <main className="min-h-screen">
+        {renderScreen()}
+      </main>
     </div>
   );
 };
