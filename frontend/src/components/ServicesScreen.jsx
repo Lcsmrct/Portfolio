@@ -18,7 +18,7 @@ const ServicesScreen = () => {
         {services.map((service) => (
           <div 
             key={service.id}
-            className={`relative bg-gray-900/50 backdrop-blur-sm rounded-2xl p-6 border transition-all duration-300 hover:scale-105 ${
+            className={`relative bg-gray-900/50 backdrop-blur-sm rounded-xl p-4 border transition-all duration-300 hover:scale-[1.02] ${
               service.popular 
                 ? 'border-blue-500/50 shadow-lg shadow-blue-500/20' 
                 : 'border-gray-700/50 hover:border-gray-600/50'
