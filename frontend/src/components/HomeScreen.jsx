@@ -68,11 +68,13 @@ const HomeScreen = () => {
             <span className="text-blue-400 text-sm">Email</span>
           </a>
           <a 
-            href={`tel:${personalInfo.phone}`}
-            className="flex items-center justify-center p-3 bg-green-500/20 rounded-xl hover:bg-green-500/30 transition-colors"
+            href="https://instagram.com/Lwebmaker"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center p-3 bg-pink-500/20 rounded-xl hover:bg-pink-500/30 transition-colors"
           >
-            <Phone size={18} className="text-green-400 mr-2" />
-            <span className="text-green-400 text-sm">Appel</span>
+            <Instagram size={18} className="text-pink-400 mr-2" />
+            <span className="text-pink-400 text-sm">Instagram</span>
           </a>
         </div>
       </div>
