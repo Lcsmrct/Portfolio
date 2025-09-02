@@ -61,15 +61,7 @@ const ContactScreen = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-4 p-4 bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-700/50">
-                  <div className="p-3 bg-green-500/20 rounded-xl">
-                    <Phone size={24} className="text-green-400" />
-                  </div>
-                  <div>
-                    <p className="text-gray-400 text-sm">Téléphone</p>
-                    <p className="text-white font-semibold text-lg">{personalInfo.phone}</p>
-                  </div>
-                </div>
+
                 
                 <div className="flex items-center space-x-4 p-4 bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-700/50">
                   <div className="p-3 bg-purple-500/20 rounded-xl">
