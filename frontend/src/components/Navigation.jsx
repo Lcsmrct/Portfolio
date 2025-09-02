@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Briefcase, Trophy, Phone, FileText, Gamepad2 } from 'lucide-react';
+import { User, Briefcase, Phone, FileText } from 'lucide-react';
 
 const Navigation = ({ activeTab, setActiveTab }) => {
   const tabs = [
