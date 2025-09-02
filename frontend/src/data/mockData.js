@@ -49,46 +49,36 @@ export const services = [
   }
 ];
 
-export const projects = [
+export const faqData = [
   {
     id: 1,
-    title: "Restauration Moto 125",
-    description: "Projet de restauration complète d'une moto 125cc avec remise en état du moteur et des pièces",
-    technologies: ["Mécanique", "Électronique", "Carrosserie", "Peinture"],
-    image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRkY0NTAwIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk1vdG8gMTI1PC90ZXh0Pgo8L3N2Zz4=",
-    githubUrl: "https://github.com/lucas/moto-restoration",
-    liveUrl: "https://moto.lcsmrct.fr",
-    status: "En cours"
+    question: "Quels sont les délais de livraison d'un site ?",
+    answer: "En moyenne 3 à 7 jours selon la complexité. Site vitrine : 3-5 jours, Site avancé : 5-7 jours. Je vous tiens informé à chaque étape du processus."
   },
   {
     id: 2,
-    title: "Système d'Allumage Arduino",
-    description: "Création d'un système d'allumage électronique programmable avec Arduino pour moto custom",
-    technologies: ["Arduino", "C++", "Électronique", "Capteurs"],
-    image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjMDA3RkZGIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFyZHVpbm88L3RleHQ+Cjwvc3ZnPg==",
-    githubUrl: "https://github.com/",
-    liveUrl: "https://arduino.lcsmrct.fr",
-    status: "Terminé"
+    question: "Que comprend l'offre 'Site vitrine' ?",
+    answer: "Un site simple de 1 à 3 pages avec design personnalisé, optimisation mobile, référencement de base et intégration de vos contenus. Parfait pour présenter votre activité."
   },
   {
     id: 3,
-    title: "Application Révision code de la route",
-    description: "Site internet permettant d'apprendre / réviser le code de la route Gratuitement",
-    technologies: ["Mécanique", "Mesure", "Analyse", "Fabrication"],
-    image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjMTBCOTgxIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJhbmMgVGVzdDwvdGV4dD4KPC9zdmc+",
-    githubUrl: "https://github.com/t",
-    liveUrl: "https://code.lcsmrct.fr",
-    status: "En cours"
+    question: "Que comprend l'offre 'Site avancé' ?",
+    answer: "Toutes les fonctionnalités du site vitrine + pages illimitées, fonctionnalités personnalisées, formulaires avancés, analytics intégrés et support prioritaire."
   },
   {
     id: 4,
-    title: "Site Web Portfolio",
-    description: "Création de ce portfolio interactif avec des jeux intégrés et design iPhone",
-    technologies: ["React", "JavaScript", "CSS", "HTML"],
-    image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjOEI1Q0Y2Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlBvcnRmb2xpbzwvdGV4dD4KPC9zdmc+",
-    githubUrl: "https://github.com/lucas/portfolio",
-    liveUrl: "https://lcsmrct.fr",
-    status: "En cours"
+    question: "Fournissez-vous une maintenance après livraison ?",
+    answer: "Oui, options de maintenance disponibles sur demande. Support gratuit pendant 1 mois après livraison pour corrections éventuelles."
+  },
+  {
+    id: 5,
+    question: "Comment se passe le paiement ?",
+    answer: "Paiement sécurisé avec acompte de 50% avant le lancement du projet, puis solde à la livraison. Paiement par virement ou PayPal."
+  },
+  {
+    id: 6,
+    question: "Puis-je modifier mon site après livraison ?",
+    answer: "Absolument ! Je vous forme à la gestion de base et propose des modifications supplémentaires à tarif préférentiel."
   }
 ];
 
