@@ -36,7 +36,7 @@ const ContactScreen = () => {
       {/* Header */}
       <div className="p-6 border-b border-gray-700/50">
         <h1 className="text-2xl font-bold text-white mb-2">Contact</h1>
-        <p className="text-gray-400 text-sm">Contactez-moi pour discuter de vos projets</p>
+        <p className="text-gray-400 text-sm">Parlons de votre projet web !</p>
       </div>
       
       {/* Contact Info */}
