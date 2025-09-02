@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, MapPin, Mail, Phone } from 'lucide-react';
+import { MapPin, Mail, Phone, Instagram } from 'lucide-react';
 import { personalInfo } from '../data/mockData';
 
 const HomeScreen = () => {
