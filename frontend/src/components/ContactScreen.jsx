@@ -71,6 +71,22 @@ const ContactScreen = () => {
               <p className="text-white font-medium">{personalInfo.location}</p>
             </div>
           </div>
+          
+          <a 
+            href="https://instagram.com/Lwebmaker"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-3 p-3 bg-gradient-to-r from-pink-500/20 to-purple-500/20 rounded-lg hover:from-pink-500/30 hover:to-purple-500/30 transition-all duration-300 group"
+          >
+            <div className="p-2 bg-pink-500/20 rounded-lg">
+              <Instagram size={18} className="text-pink-400" />
+            </div>
+            <div className="flex-1">
+              <p className="text-gray-400 text-sm">Instagram</p>
+              <p className="text-white font-medium">@Lwebmaker</p>
+            </div>
+            <ExternalLink size={16} className="text-gray-400 group-hover:text-pink-400 transition-colors" />
+          </a>
         </div>
       </div>
       
