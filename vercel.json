@@ -6,18 +6,11 @@
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "cd frontend && yarn build",
+        "buildCommand": "yarn build",
         "outputDirectory": "frontend/build"
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "functions": {},
   "rewrites": [
     {
       "source": "/(.*)",
