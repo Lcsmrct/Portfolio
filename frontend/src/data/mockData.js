@@ -38,6 +38,7 @@ export const services = [
     description: "Solution complète avec fonctionnalités étendues, idéale pour des besoins plus complexes.",
     features: [
       "Tout du site vitrine",
+      "Nom de domaine .fr fourni",
       "Pages illimitées",
       "Fonctionnalités personnalisées",
       "Formulaires de contact avancés",
