@@ -17,14 +17,10 @@ const App = () => {
     switch (activeTab) {
       case 'home':
         return <HomeScreen />;
-      case 'projects':
-        return <ProjectsScreen />;
-      case 'skills':
-        return <SkillsScreen />;
-      case 'cv':
-        return <CVScreen />;
-      case 'games':
-        return <GamesScreen />;
+      case 'services':
+        return <ServicesScreen />;
+      case 'faq':
+        return <FAQScreen />;
       case 'contact':
         return <ContactScreen />;
       default:
