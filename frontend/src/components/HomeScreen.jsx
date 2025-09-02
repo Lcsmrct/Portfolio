@@ -32,26 +32,28 @@ const HomeScreen = () => {
           {personalInfo.bio}
         </p>
         
-        {/* Social Links */}
-        <div className="flex space-x-6">
+        {/* CTA Button */}
+        <div className="mb-6">
           <a 
-            href={personalInfo.social.github}
-            className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
+            href="https://instagram.com/Lwebmaker"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg"
           >
-            <Github size={20} className="text-white" />
+            <span>Créons votre site web !</span>
           </a>
-          <a 
-            href={personalInfo.social.linkedin}
-            className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
-          >
-            <Linkedin size={20} className="text-blue-400" />
-          </a>
-          <a 
-            href={personalInfo.social.twitter}
-            className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
-          >
-            <Twitter size={20} className="text-blue-400" />
-          </a>
+        </div>
+
+        {/* Stats */}
+        <div className="grid grid-cols-2 gap-4 text-center">
+          <div className="bg-gray-800/50 rounded-xl p-3">
+            <div className="text-2xl font-bold text-blue-400">50+</div>
+            <div className="text-xs text-gray-400">Sites créés</div>
+          </div>
+          <div className="bg-gray-800/50 rounded-xl p-3">
+            <div className="text-2xl font-bold text-green-400">100%</div>
+            <div className="text-xs text-gray-400">Clients satisfaits</div>
+          </div>
         </div>
       </div>
       
