@@ -3,11 +3,11 @@
   "name": "lucas-portfolio-frontend",
   "builds": [
     {
-      "src": "package.json",
+      "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "yarn build",
-        "outputDirectory": "build"
+        "buildCommand": "cd frontend && yarn build",
+        "outputDirectory": "frontend/build"
       }
     }
   ],
@@ -17,7 +17,6 @@
       "dest": "/index.html"
     }
   ],
-  "functions": {},
   "rewrites": [
     {
       "source": "/(.*)",
