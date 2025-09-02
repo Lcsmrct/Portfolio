@@ -11,7 +11,7 @@ const Navigation = ({ activeTab, setActiveTab }) => {
 
   return (
     <nav className="bg-gray-900/80 backdrop-blur-sm border-t border-gray-700/50">
-      <div className="grid grid-cols-3 gap-1 p-2">
+      <div className="grid grid-cols-4 gap-1 p-2">
         {tabs.map((tab) => {
           const Icon = tab.icon;
           return (
