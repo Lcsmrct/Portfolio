@@ -49,27 +49,25 @@ const ContactScreen = () => {
             
             {/* Contact Info */}
             <div>
-              <h2 className="text-3xl font-bold text-white mb-8">Mes coordonnées</h2>
+              <h2 className="text-3xl font-bold text-white mb-8">Comment me contacter</h2>
               <div className="space-y-6">
-                <div className="flex items-center space-x-4 p-4 bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-700/50">
-                  <div className="p-3 bg-blue-500/20 rounded-xl">
-                    <Mail size={24} className="text-blue-400" />
+                <div className="flex items-center space-x-4 p-6 bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-700/50">
+                  <div className="p-4 bg-blue-500/20 rounded-xl">
+                    <Mail size={28} className="text-blue-400" />
                   </div>
                   <div>
-                    <p className="text-gray-400 text-sm">Email</p>
-                    <p className="text-white font-semibold text-lg">{personalInfo.email}</p>
+                    <p className="text-gray-400 text-sm">Email professionnel</p>
+                    <p className="text-white font-semibold text-xl">{personalInfo.email}</p>
                   </div>
                 </div>
                 
-
-                
-                <div className="flex items-center space-x-4 p-4 bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-700/50">
-                  <div className="p-3 bg-purple-500/20 rounded-xl">
-                    <MapPin size={24} className="text-purple-400" />
+                <div className="flex items-center space-x-4 p-6 bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-700/50">
+                  <div className="p-4 bg-purple-500/20 rounded-xl">
+                    <MapPin size={28} className="text-purple-400" />
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Localisation</p>
-                    <p className="text-white font-semibold text-lg">{personalInfo.location}</p>
+                    <p className="text-white font-semibold text-xl">{personalInfo.location}</p>
                   </div>
                 </div>
                 
@@ -77,17 +75,23 @@ const ContactScreen = () => {
                   href="https://instagram.com/Lwebmaker"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-4 p-4 bg-gradient-to-r from-pink-500/20 to-purple-500/20 rounded-2xl border border-pink-500/30 hover:from-pink-500/30 hover:to-purple-500/30 transition-all duration-300 group"
+                  className="flex items-center space-x-4 p-6 bg-gradient-to-r from-pink-500/20 to-purple-500/20 rounded-2xl border border-pink-500/30 hover:from-pink-500/30 hover:to-purple-500/30 transition-all duration-300 group"
                 >
-                  <div className="p-3 bg-pink-500/20 rounded-xl">
-                    <Instagram size={24} className="text-pink-400" />
+                  <div className="p-4 bg-pink-500/20 rounded-xl">
+                    <Instagram size={28} className="text-pink-400" />
                   </div>
                   <div className="flex-1">
-                    <p className="text-gray-400 text-sm">Instagram</p>
-                    <p className="text-white font-semibold text-lg">@Lwebmaker</p>
+                    <p className="text-gray-400 text-sm">Contact privilégié</p>
+                    <p className="text-white font-semibold text-xl">@Lwebmaker</p>
                   </div>
                   <ExternalLink size={20} className="text-gray-400 group-hover:text-pink-400 transition-colors" />
                 </a>
+
+                <div className="mt-8 p-6 bg-blue-500/10 border border-blue-500/20 rounded-2xl">
+                  <p className="text-blue-300 text-center font-medium">
+                    💬 <strong>Réponse garantie sous 24h</strong> sur Instagram !
+                  </p>
+                </div>
               </div>
             </div>
 
