@@ -4,10 +4,8 @@ import { User, Briefcase, Trophy, Phone, FileText, Gamepad2 } from 'lucide-react
 const Navigation = ({ activeTab, setActiveTab }) => {
   const tabs = [
     { id: 'home', label: 'Accueil', icon: User },
-    { id: 'projects', label: 'Projets', icon: Briefcase },
-    { id: 'skills', label: 'Compétences', icon: Trophy },
-    { id: 'cv', label: 'CV', icon: FileText },
-    { id: 'games', label: 'Jeux', icon: Gamepad2 },
+    { id: 'services', label: 'Services', icon: Briefcase },
+    { id: 'faq', label: 'FAQ', icon: FileText },
     { id: 'contact', label: 'Contact', icon: Phone }
   ];
 
