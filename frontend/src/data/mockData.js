@@ -22,7 +22,8 @@ export const services = [
     description: "Site simple et professionnel, parfait pour présenter votre activité en ligne avec élégance.",
     features: [
       "Design professionnel et moderne",
-      "1 à 3 pages optimisées",
+      "Jusqu'à 5 pages optimisées",
+      "Nom de domaine .fr fourni",
       "Responsive (mobile + desktop)", 
       "Optimisation SEO de base",
       "Livraison en 3-5 jours"
