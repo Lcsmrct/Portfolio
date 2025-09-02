@@ -2,10 +2,9 @@
 
 export const personalInfo = {
   name: "L.Webmaker",
-  title: "Créateur de Sites Web",
-  bio: "Spécialisé dans la création de sites web modernes et professionnels. Je transforme vos idées en présence digitale percutante avec des designs sur-mesure et une expérience utilisateur optimale.",
+  title: "Créateur de Sites Web Professionnels",
+  bio: "Expert en développement web moderne, je conçois des sites internet sur-mesure qui transforment votre vision en réalité digitale. Solutions performantes, designs élégants et expérience utilisateur exceptionnelle garantie.",
   email: "contact@lwebmaker.fr",
-  phone: "+33 06 06 06 06 06",
   location: "France",
   avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjMUUzQThBIi8+Cjx0ZXh0IHg9IjQ1IiB5PSI1NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MPC90ZXh0Pgo8Y2lyY2xlIGN4PSI2NSIgY3k9IjQ1IiByPSIzIiBmaWxsPSIjNjBBNUZBIi8+Cjwvc3ZnPg==",
   social: {
