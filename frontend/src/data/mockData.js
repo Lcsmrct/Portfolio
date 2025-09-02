@@ -15,36 +15,37 @@ export const personalInfo = {
   }
 };
 
-export const skills = [
+export const services = [
   {
-    category: "Mécanique",
-    technologies: [
-      { name: "EN COURS", level: 85 },
-      { name: "EN COURS", level: 85 },
-      { name: "EN COURS", level: 85 },
-      { name: "EN COURS", level: 85 },
-      { name: "EN COURS", level: 85 },
-    ]
+    id: 1,
+    title: "Site Vitrine",
+    price: "50€",
+    description: "Site simple et professionnel, parfait pour présenter votre activité en ligne avec élégance.",
+    features: [
+      "Design professionnel et moderne",
+      "1 à 3 pages optimisées",
+      "Responsive (mobile + desktop)", 
+      "Optimisation SEO de base",
+      "Livraison en 3-5 jours"
+    ],
+    icon: "🌐",
+    popular: false
   },
   {
-    category: "Outils",
-    technologies: [
-      { name: "EN COURS", level: 85 },
-      { name: "EN COURS", level: 85 },
-      { name: "EN COURS", level: 85 },
-      { name: "EN COURS", level: 85 },
-      { name: "EN COURS", level: 85 },
-    ]
-  },
-  {
-    category: "Tech",
-    technologies: [
-      { name: "HTML/CSS", level: 70 },
-      { name: "JavaScript", level: 60 },
-      { name: "Python", level: 30 },
-      { name: "Git", level: 55 },
-      { name: "Arduino", level: 45 }
-    ]
+    id: 2,
+    title: "Site Avancé", 
+    price: "70€",
+    description: "Solution complète avec fonctionnalités étendues, idéale pour des besoins plus complexes.",
+    features: [
+      "Tout du site vitrine",
+      "Pages illimitées",
+      "Fonctionnalités personnalisées",
+      "Formulaires de contact avancés",
+      "Analytics et suivi intégrés",
+      "Support prioritaire"
+    ],
+    icon: "🚀",
+    popular: true
   }
 ];
 
