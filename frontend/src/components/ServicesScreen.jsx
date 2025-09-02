@@ -35,15 +35,15 @@ const ServicesScreen = () => {
             )}
 
             {/* Service Header */}
-            <div className="text-center mb-6">
-              <div className="text-4xl mb-3">{service.icon}</div>
-              <h3 className="text-xl font-bold text-white mb-2">{service.title}</h3>
-              <div className="text-3xl font-bold text-blue-400 mb-2">{service.price}</div>
+            <div className="text-center mb-4">
+              <div className="text-3xl mb-2">{service.icon}</div>
+              <h3 className="text-lg font-bold text-white mb-1">{service.title}</h3>
+              <div className="text-2xl font-bold text-blue-400 mb-2">{service.price}</div>
               <p className="text-gray-400 text-sm">{service.description}</p>
             </div>
 
             {/* Features */}
-            <div className="space-y-3 mb-6">
+            <div className="space-y-2 mb-4">
               {service.features.map((feature, index) => (
                 <div key={index} className="flex items-start">
                   <Check size={16} className="text-green-400 mr-3 mt-0.5 flex-shrink-0" />
