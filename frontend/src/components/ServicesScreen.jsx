@@ -46,8 +46,8 @@ const ServicesScreen = () => {
             <div className="space-y-2 mb-4">
               {service.features.map((feature, index) => (
                 <div key={index} className="flex items-start">
-                  <Check size={16} className="text-green-400 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-300 text-sm">{feature}</span>
+                  <Check size={14} className="text-green-400 mr-2 mt-0.5 flex-shrink-0" />
+                  <span className="text-gray-300 text-xs">{feature}</span>
                 </div>
               ))}
             </div>
