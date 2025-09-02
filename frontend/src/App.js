@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import IPhoneFrame from './components/IPhoneFrame';
-import StatusBar from './components/StatusBar';
 import Navigation from './components/Navigation';
 import HomeScreen from './components/HomeScreen';
 import ServicesScreen from './components/ServicesScreen';
