@@ -53,9 +53,9 @@ const ServicesScreen = () => {
             </div>
 
             {/* CTA Button */}
-            <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 flex items-center justify-center group">
+            <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center group text-sm">
               <span>Commander</span>
-              <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight size={14} className="ml-2 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
         ))}
