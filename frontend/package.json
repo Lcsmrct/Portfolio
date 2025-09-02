@@ -2,7 +2,7 @@
   "name": "lucas-portfolio-frontend",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://lucas-portfoliooo.netlify.app",
+  "homepage": "./",
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.8",
